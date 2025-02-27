@@ -11,5 +11,10 @@ while not done:
             done = True
     pygame.draw.rect(screen, (0, 125, 225), pygame.Rect(30, 30, 60, 60))
 
+    Green = (0, 225, 0)
+    pygame.draw.circle(screen, Green, (250, 250), 50)
+    pygame.draw.circle(screen, Green, (250, 200), 50, 3)
+    
+
 
 pygame.display.flip()
